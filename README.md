@@ -118,25 +118,3 @@ Contributions are welcome! Please feel free to open issues or submit pull reques
 
 This project is licensed under the MIT License - see the LICENSE file for details (if applicable).
 
-
-## Example Usage with Images
-
-To illustrate the face comparison functionality, consider the following example images:
-
-### Image 1: Messi (Younger)
-
-![Messi Younger](/home/mohamed-zaghloula/Pictures/Screenshots/Screenshot From 2025-07-18 16-49-02.png)
-
-### Image 2: Messi (Older)
-
-![Messi Older](/home/mohamed-zaghloula/Pictures/Screenshots/Screenshot From 2025-07-18 16-49-13.png)
-
-When these two images are passed to the `/compare_faces` endpoint, the API will analyze them and return a result indicating whether they are the same person. Given that both images are of Lionel Messi, the expected output would be:
-
-```json
-{
-    "result": "They are the same person."
-}
-```
-
-This demonstrates the API's ability to correctly identify the same individual across different images, even with variations in age or appearance.
